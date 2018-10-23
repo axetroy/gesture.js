@@ -1,0 +1,28 @@
+{
+  "name": "gesture",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "lint": "tslint -p ./ -c tslint.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/axetroy/gesture.js.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/axetroy/gesture.js/issues"
+  },
+  "homepage": "https://gitlab.com/axetroy/gesture.js#readme",
+  "devDependencies": {
+    "@types/node": "^9.6.6",
+    "parcel-bundler": "^1.10.3",
+    "ts-node": "^6.0.0",
+    "tslint": "^5.9.1",
+    "tslint-config-prettier": "^1.12.0",
+    "typescript": "^2.8.3"
+  }
+}
